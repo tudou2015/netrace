@@ -1,0 +1,197 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2014-7-13, 14:19:51
+    Author     : songshuai@foxmail.com
+*/
+
+
+.type_div_ul{
+        width: 143px;height: 360px;
+     
+        position: absolute;
+   display: none;
+}
+.type_div_ul .so{
+color: #FF0500;
+font-size: 115%;
+}
+.type_div_ul li{
+    height: 33px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    cursor: pointer;     list-style-type: none;
+}
+.type_div_ul li:hover{
+    background-color: #DADADA;
+}
+.type_div_ul img {
+height: 33px;
+line-height: 33px;
+margin-right: 8px;
+}
+.type_div_ul ul{
+    display: none;
+    background-color:  #fff;
+    border:1px #000 solid;
+    width: 200px;
+    clear:both;
+}
+.type_div_ul>ul{
+    display: block;
+}
+.type_div_ul ul li
+{
+    border-bottom:#838383 1px solid;
+        clear:both;
+        position: relative;
+}
+.type_div_ul ul .icon-chevron-right{
+float: right;
+line-height: 33px;
+position: relative;
+right: 7px;
+display: none;
+}
+.type_div_ul .list .icon-chevron-right{
+    display: block;
+}
+.type_div_ul ul .text{
+    text-align: center;
+}
+
+.type_div_ul ul li ul{
+        
+        position: absolute;
+        right:-190px;
+        top:5px;
+}
+
+
+.select_view ul{
+    list-style-type: none;
+    clear:both;
+    margin: 0;
+    
+}
+.select_view ul li{
+    float: left;
+ color: #333;
+background-color: #E6E6E6;
+    border-radius: 0px;
+    padding: 11px 19px;
+font-size: 17.5px;
+ display: inline-block;
+padding: 4px 12px;
+margin-bottom: 0;
+font-size: 14px;
+line-height: 20px;
+color: #333;
+text-align: center;
+text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+vertical-align: middle;
+cursor: pointer;
+background-color: #F5F5F5;
+background-image: -moz-linear-gradient(top, #fff, #e6e6e6);
+background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#FFF), to(#E6E6E6));
+background-image: -webkit-linear-gradient(top, #FFF, #E6E6E6);
+background-image: -o-linear-gradient(top, #fff, #e6e6e6);
+background-image: linear-gradient(to bottom, #FFF, #E6E6E6);
+background-repeat: repeat-x;
+border: 1px solid #CCC;
+border-color: #E6E6E6 #E6E6E6 #BFBFBF;
+border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+border-bottom-color: #B3B3B3;
+ 
+-moz-border-radius: 4px;
+ 
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffe6e6e6', GradientType=0);
+filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+-moz-box-shadow: inset 0 1px 0 rgba(255,255,255,0.2), 0 1px 2px rgba(0,0,0,0.05);
+box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+
+}
+
+.select_view ul li:hover {
+text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+background-color: #FFF;
+background-image: -moz-linear-gradient(top, #08c, #04c);
+background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#08C), to(#04C));
+background-image: -webkit-linear-gradient(top, #08C, #04C);
+background-image: -o-linear-gradient(top, #08c, #04c);
+background-image: linear-gradient(to bottom, #08C, #9DB1DA);
+background-repeat: repeat-x;
+border-color: #04C #04C #002A80;
+border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff0044cc', GradientType=0);
+filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+
+.select_view ul li.on {
+color: #FFF;
+text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+background-color: #006DCC;
+background-image: -moz-linear-gradient(top, #08c, #04c);
+background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#08C), to(#04C));
+background-image: -webkit-linear-gradient(top, #08C, #04C);
+background-image: -o-linear-gradient(top, #08c, #04c);
+background-image: linear-gradient(to bottom, #08C, #04C);
+background-repeat: repeat-x;
+border-color: #04C #04C #002A80;
+border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff0044cc', GradientType=0);
+filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,78 @@
+* {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; VERTICAL-ALIGN: middle; PADDING-TOP: 0px; -webkit-text-size-adjust: none; -ms-text-size-adjust: none
+}
+A {
+	FONT-STYLE: normal; OUTLINE-STYLE: none; DISPLAY: inline-block; resize: none
+}
+LABEL {
+	FONT-STYLE: normal; OUTLINE-STYLE: none; DISPLAY: inline-block; resize: none
+}
+INPUT {
+	FONT-STYLE: normal; OUTLINE-STYLE: none; DISPLAY: inline-block; resize: none
+}
+BUTTON {
+	FONT-STYLE: normal; OUTLINE-STYLE: none; DISPLAY: inline-block; resize: none
+}
+SELECT {
+	FONT-STYLE: normal; OUTLINE-STYLE: none; DISPLAY: inline-block; resize: none
+}
+TEXTAREA {
+	FONT-STYLE: normal; OUTLINE-STYLE: none; DISPLAY: inline-block; resize: none
+}
+SPAN {
+	FONT-STYLE: normal; OUTLINE-STYLE: none; DISPLAY: inline-block; resize: none
+}
+EM {
+	FONT-STYLE: normal; OUTLINE-STYLE: none; DISPLAY: inline-block; resize: none
+}
+I {
+	FONT-STYLE: normal; OUTLINE-STYLE: none; DISPLAY: inline-block; resize: none
+}
+STRONG {
+	FONT-STYLE: normal; OUTLINE-STYLE: none; DISPLAY: inline-block; resize: none
+}
+IMG {
+	FONT-STYLE: normal; OUTLINE-STYLE: none; DISPLAY: inline-block; resize: none
+}
+A {
+	TEXT-DECORATION: none
+}
+A:hover {
+	TEXT-DECORATION: underline
+}
+UL {
+	LIST-STYLE-TYPE: none
+}
+UL LI {
+	DISPLAY: block
+}
+TABLE {
+	BORDER-SPACING: 0; BORDER-COLLAPSE: collapse
+}
+.fr {
+	FLOAT: right
+}
+.fl {
+	FLOAT: left
+}
+.clr {
+	LINE-HEIGHT: 0px; DISPLAY: inline; HEIGHT: 0px; CLEAR: both; FONT-SIZE: 0px; OVERFLOW: hidden
+}
+.rel {
+	POSITION: relative
+}
+.abs {
+	POSITION: absolute
+}
+.mr10 {
+	MARGIN-RIGHT: 10px
+}
+.mr12 {
+	MARGIN-RIGHT: 12px
+}
+.mb10 {
+	MARGIN-BOTTOM: 10px
+}
+.tra {
+	FILTER: alpha(opacity=0); opacity: 0; -moz-opacity: 0; -khtml-opacity: 0
+}
